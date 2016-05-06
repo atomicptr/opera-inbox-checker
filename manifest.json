@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Opera Inbox Checker",
+    "description": "Displays the amount of unread Inbox by Google emails.",
+    "version": "0.1.0",
+    "icons": {
+        "128": "assets/icon_128.png",
+        "256": "assets/icon_256.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs", "*://*.google.com/"],
+    "browser_action": {
+        "default_icon": "assets/inbox.png",
+        "default_title": "Opera Inbox Checker"
+    }
+}
