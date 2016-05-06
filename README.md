@@ -10,6 +10,10 @@ Since this extension is written in CoffeeScript but requires a JavaScript file t
 coffee -o . -c src/
 ```
 
+## Asset Attributions
+
+The Inbox Icons are part of well.. [Google Inbox](https://inbox.google.com)
+
 ## License
 
 MIT
